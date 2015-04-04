@@ -1,0 +1,6 @@
+atlassian-ide-plugin.xml
+.idea
+
+node_modules
+npm-debug.log
+.sass-cache
