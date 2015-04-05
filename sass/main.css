@@ -5635,5 +5635,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body {
+  background: #000000; }
 
 /*# sourceMappingURL=main.css.map */

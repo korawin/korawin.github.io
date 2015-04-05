@@ -8567,3 +8567,12 @@ button.close {
     display: none !important;
   }
 }
+/* line 1, ../sass/_layout.scss */
+body {
+  background: #222;
+}
+
+/* line 5, ../sass/_layout.scss */
+.navbar-korawin {
+  border-color: transparent;
+}
