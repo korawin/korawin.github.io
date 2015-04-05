@@ -8569,10 +8569,56 @@ button.close {
 }
 /* line 1, ../sass/_layout.scss */
 body {
-  background: #222;
+  background-color: #424242;
+  color: #BCBCBC;
+}
+/* line 4, ../sass/_layout.scss */
+body h1, body h2, body h3 {
+  color: #8D987F;
 }
 
-/* line 5, ../sass/_layout.scss */
+/* line 9, ../sass/_layout.scss */
 .navbar-korawin {
   border-color: transparent;
+  background: transparent;
+}
+
+/* line 14, ../sass/_layout.scss */
+#korawin {
+  text-align: center;
+  height: 100vh;
+}
+/* line 18, ../sass/_layout.scss */
+#korawin img {
+  width: 300px;
+}
+/* line 21, ../sass/_layout.scss */
+#korawin h1, #korawin h2 {
+  color: #9d9d9d;
+  text-transform: capitalize;
+}
+
+/* line 27, ../sass/_layout.scss */
+#why {
+  height: 100vh;
+  text-align: center;
+}
+/* line 30, ../sass/_layout.scss */
+#why .box {
+  padding-top: 30px;
+  height: 100%;
+}
+
+/* line 36, ../sass/_layout.scss */
+#team {
+  padding-top: 5vh;
+  height: 100vh;
+  text-align: center;
+}
+
+/* line 42, ../sass/_layout.scss */
+#contact {
+  padding-top: 5vh;
+  height: 100vh;
+  text-align: center;
 }

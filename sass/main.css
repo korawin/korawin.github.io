@@ -5636,6 +5636,39 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  background: #000000; }
+  background-color: #424242;
+  color: #BCBCBC; }
+  body h1, body h2, body h3 {
+    color: #8D987F; }
+
+.navbar-korawin {
+  border-color: transparent;
+  background: transparent; }
+
+#korawin {
+  text-align: center;
+  height: 100vh; }
+  #korawin img {
+    width: 300px; }
+  #korawin h1, #korawin h2 {
+    color: #9d9d9d;
+    text-transform: capitalize; }
+
+#why {
+  height: 100vh;
+  text-align: center; }
+  #why .box {
+    padding-top: 30px;
+    height: 100%; }
+
+#team {
+  padding-top: 5vh;
+  height: 100vh;
+  text-align: center; }
+
+#contact {
+  padding-top: 5vh;
+  height: 100vh;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

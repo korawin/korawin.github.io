@@ -1,7 +1,46 @@
 body {
-  background: #222;
+  background-color: rgb(66, 66, 66);
+  color: #BCBCBC;
+  h1, h2, h3 {
+    color: #8D987F
+  }
 }
 
 .navbar-korawin{
   border-color: transparent ;
+  background: transparent;
+}
+
+#korawin {
+  text-align: center;
+  height: 100vh;
+
+  img{
+    width: 300px;
+  }
+  h1, h2 {
+    color: #9d9d9d;
+    text-transform: capitalize;
+  }
+}
+
+#why {
+  height: 100vh;
+  text-align: center;
+  .box{
+    padding-top: 30px;
+    height: 100%;
+  }
+}
+
+#team {
+  padding-top: 5vh;
+  height: 100vh;
+  text-align: center;
+}
+
+#contact {
+  padding-top: 5vh;
+  height: 100vh;
+  text-align: center;
 }
