@@ -11,5 +11,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "plusgallery": "https://github.com/jermartin77/plusgallery"
+  }
 }

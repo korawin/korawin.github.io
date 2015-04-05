@@ -5653,6 +5653,8 @@ body {
   #korawin h1, #korawin h2 {
     color: #9d9d9d;
     text-transform: capitalize; }
+  #korawin #plusgallery {
+    margin-top: 30px; }
 
 #why {
   height: 100vh;

@@ -8597,26 +8597,30 @@ body h1, body h2, body h3 {
   color: #9d9d9d;
   text-transform: capitalize;
 }
+/* line 25, ../sass/_layout.scss */
+#korawin #plusgallery {
+  margin-top: 30px;
+}
 
-/* line 27, ../sass/_layout.scss */
+/* line 30, ../sass/_layout.scss */
 #why {
   height: 100vh;
   text-align: center;
 }
-/* line 30, ../sass/_layout.scss */
+/* line 33, ../sass/_layout.scss */
 #why .box {
   padding-top: 30px;
   height: 100%;
 }
 
-/* line 36, ../sass/_layout.scss */
+/* line 39, ../sass/_layout.scss */
 #team {
   padding-top: 5vh;
   height: 100vh;
   text-align: center;
 }
 
-/* line 42, ../sass/_layout.scss */
+/* line 45, ../sass/_layout.scss */
 #contact {
   padding-top: 5vh;
   height: 100vh;
