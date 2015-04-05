@@ -5648,6 +5648,9 @@ body {
 #korawin {
   text-align: center;
   height: 100vh; }
+  @media (max-width: 768px) {
+    #korawin {
+      height: auto; } }
   #korawin img {
     width: 300px; }
   #korawin h1, #korawin h2 {
@@ -5659,6 +5662,9 @@ body {
 #why {
   height: 100vh;
   text-align: center; }
+  @media (max-width: 768px) {
+    #why {
+      height: auto; } }
   #why .box {
     padding-top: 30px;
     height: 100%; }
@@ -5667,10 +5673,16 @@ body {
   padding-top: 5vh;
   height: 100vh;
   text-align: center; }
+  @media (max-width: 768px) {
+    #team {
+      height: auto; } }
 
 #contact {
   padding-top: 5vh;
   height: 100vh;
   text-align: center; }
+  @media (max-width: 768px) {
+    #contact {
+      height: auto; } }
 
 /*# sourceMappingURL=main.css.map */

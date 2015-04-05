@@ -1,3 +1,7 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
 @import "layout";
