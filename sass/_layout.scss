@@ -46,6 +46,16 @@ body {
   padding-top: 5vh;
   height: 100vh;
   text-align: center;
+
+  h2 {
+
+  }
+
+  img{
+    @include border-top-radius(50%);
+    @include border-bottom-radius(50%);
+    height: 100px;
+  }
   @media (max-width: $screen-sm-min) {
     height: auto;
   }

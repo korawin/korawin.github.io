@@ -8631,6 +8631,14 @@ body h1, body h2, body h3 {
   height: 100vh;
   text-align: center;
 }
+/* line 54, ../sass/_layout.scss */
+#team img {
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  height: 100px;
+}
 @media (max-width: 768px) {
   /* line 45, ../sass/_layout.scss */
   #team {
@@ -8638,14 +8646,14 @@ body h1, body h2, body h3 {
   }
 }
 
-/* line 54, ../sass/_layout.scss */
+/* line 64, ../sass/_layout.scss */
 #contact {
   padding-top: 5vh;
   height: 100vh;
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 54, ../sass/_layout.scss */
+  /* line 64, ../sass/_layout.scss */
   #contact {
     height: auto;
   }
