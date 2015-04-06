@@ -18,6 +18,7 @@
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js"></script>
     <script src="scripts/plusgallery/js/plusgallery.js"></script>
     <script src="scripts/app-plusgallery.js"></script>
+    <script src="scripts/app-mail.js"></script>
     <script src="scripts/app.js"></script>
 
 
@@ -142,7 +143,7 @@
         <h2>ทีมงาน</h2>
 
         <div class="row">
-            <div class="col-xs-6 col-sm-4">
+            <div class="col-md-4">
                 <a href="http://tawin.korawin.com" target="_blank">
                     <img src="images/tawin.png">
 
@@ -157,11 +158,11 @@
                     เพื่อ สินค้าที่ดีที่สุดสำหรับคุณ
                 </p>
             </div>
-            <div class="col-xs-6 col-sm-4">
+            <div class="col-md-4 ">
                 <!--<img src="images/tawin.png">-->
                 <!--<h3> วสุ สุปายนันต์</h3>-->
             </div>
-            <div class="col-xs-6 col-sm-4">
+            <div class="col-md-4">
                 <img src="images/anonymous.png">
 
                 <h3> ทีมงาน </h3>
@@ -178,8 +179,56 @@
 
     <div id="contact">
         <h2>ติดต่อเรา</h2>
+
+        <div id="mailAlert" class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+            พวกเราได้รับข้อความข้อความของคุณแล้วจะติดต่อกลับโดยเร็วที่สุด ขอบคุณครับ
+        </div>
+        <form class="form-horizontal" id="contactUsForm">
+            <div class="form-group">
+                <label class="control-label sr-only" for="name">ชื่อผู้ติดต่อ</label>
+
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="name" placeholder="ชื่อผู้ติดต่อ" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label  sr-only" for="email">อีเมล์ติดต่อกลับ</label>
+
+                <div class="col-sm-12">
+                    <input type="email" class="form-control" id="email" placeholder="อีเมล์ติดต่อกลับ" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label  sr-only" for="description">รายละเอียด</label>
+
+                <div class="col-sm-12">
+                    <textarea class="form-control" id="description" placeholder="รายละเอียด" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-default">ส่งข้อความ</button>
+                </div>
+            </div>
+        </form>
     </div>
-    <!-- #contactUs -->
+    <footer id="footer" role="contentinfo">
+        <div class="container">
+            <div class="pull-left">
+                <a href="https://instagram.com/korawin_farm"><img src="images/facebook.png"></a>
+                <a href="https://www.facebook.com/pages/Korawin/963211107046815"><img src="images/instagram.png"></a>
+            </div>
+            <div class="pull-right">
+                <h6>Korawin</h6>
+
+                <p>48/5 หมู่ 3 ซอย เงินอุดม1 ถนนบางแวก แขวงบางเบือกหนัง เขตตลิ่งชั่น กรุงเทพ 10170</p>
+                <p>korawin.farm@gmail.com</p>
+                <p>+66-87-672-7914</p>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

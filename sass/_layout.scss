@@ -46,7 +46,9 @@ body {
   padding-top: 5vh;
   height: 100vh;
   text-align: center;
-
+  @media (max-width: $screen-sm-min) {
+    height: auto;
+  }
   h2 {
 
   }
@@ -56,16 +58,29 @@ body {
     @include border-bottom-radius(50%);
     height: 100px;
   }
-  @media (max-width: $screen-sm-min) {
-    height: auto;
-  }
 }
 
 #contact {
-  padding-top: 5vh;
-  height: 100vh;
-  text-align: center;
+  height: 90vh;
   @media (max-width: $screen-sm-min) {
     height: auto;
+  }
+  padding-top: 5vh;
+  text-align: center;
+  textarea {
+    min-height: 200px;
+  }
+}
+
+#footer{
+  img {
+    height: 50px;
+    @include border-top-radius(50%);
+    @include border-bottom-radius(50%);
+    margin: 10px 5px;
+    background-color: #ffffff;
+  }
+  p{
+    font-size: 0.8em;
   }
 }

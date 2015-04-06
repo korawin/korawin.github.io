@@ -10,6 +10,7 @@ $(function(){
 
   // initialize the application
   Korawin.Init = (function () {
+    Korawin.App.Mail.Setup();
     Korawin.App.PlusGallery.Setup();
   })();
 

@@ -8631,7 +8631,13 @@ body h1, body h2, body h3 {
   height: 100vh;
   text-align: center;
 }
-/* line 54, ../sass/_layout.scss */
+@media (max-width: 768px) {
+  /* line 45, ../sass/_layout.scss */
+  #team {
+    height: auto;
+  }
+}
+/* line 56, ../sass/_layout.scss */
 #team img {
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -8639,22 +8645,35 @@ body h1, body h2, body h3 {
   border-bottom-left-radius: 50%;
   height: 100px;
 }
-@media (max-width: 768px) {
-  /* line 45, ../sass/_layout.scss */
-  #team {
-    height: auto;
-  }
-}
 
-/* line 64, ../sass/_layout.scss */
+/* line 63, ../sass/_layout.scss */
 #contact {
+  height: 90vh;
   padding-top: 5vh;
-  height: 100vh;
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 64, ../sass/_layout.scss */
+  /* line 63, ../sass/_layout.scss */
   #contact {
     height: auto;
   }
+}
+/* line 70, ../sass/_layout.scss */
+#contact textarea {
+  min-height: 200px;
+}
+
+/* line 76, ../sass/_layout.scss */
+#footer img {
+  height: 50px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin: 10px 5px;
+  background-color: #ffffff;
+}
+/* line 83, ../sass/_layout.scss */
+#footer p {
+  font-size: 0.8em;
 }

@@ -5673,22 +5673,35 @@ body {
   padding-top: 5vh;
   height: 100vh;
   text-align: center; }
+  @media (max-width: 768px) {
+    #team {
+      height: auto; } }
   #team img {
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     height: 100px; }
-  @media (max-width: 768px) {
-    #team {
-      height: auto; } }
 
 #contact {
+  height: 90vh;
   padding-top: 5vh;
-  height: 100vh;
   text-align: center; }
   @media (max-width: 768px) {
     #contact {
       height: auto; } }
+  #contact textarea {
+    min-height: 200px; }
+
+#footer img {
+  height: 50px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin: 10px 5px;
+  background-color: #ffffff; }
+#footer p {
+  font-size: 0.8em; }
 
 /*# sourceMappingURL=main.css.map */
