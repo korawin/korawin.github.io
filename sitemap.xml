@@ -1,30 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>http://www.korawin.com/</loc>
-  <lastmod>2015-04-15T15:26:24+00:00</lastmod>
-    <image:image>
-        <image:loc>http://www.korawin.com/images/logo-korawin-facebook.png</image:loc>
-    </image:image>
+    <url>
+        <loc>http://www.korawin.com/</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+        <image:image>
+            <image:loc>http://www.korawin.com/images/logo-korawin-facebook.png</image:loc>
+        </image:image>
 
-</url>
-<url>
-  <loc>http://www.korawin.com/index</loc>
-  <lastmod>2015-04-15T15:26:24+00:00</lastmod>
-    <image:image>
-        <image:loc>http://www.korawin.com/images/logo-korawin-facebook.png</image:loc>
-    </image:image>
-</url>
-<url>
-  <loc>http://www.korawin.com/th</loc>
-  <lastmod>2015-04-15T15:26:24+00:00</lastmod>
-    <image:image>
-        <image:loc>http://www.korawin.com/images/logo-korawin-facebook.png</image:loc>
-    </image:image>
-</url>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/index</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+        <image:image>
+            <image:loc>http://www.korawin.com/images/logo-korawin-facebook.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/#why</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/#team</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/#contact</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/th</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+        <image:image>
+            <image:loc>http://www.korawin.com/images/logo-korawin-facebook.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/th#why</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/th#team</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.korawin.com/th#contact</loc>
+        <lastmod>2015-04-15T15:26:24+00:00</lastmod>
+    </url>
 </urlset>
