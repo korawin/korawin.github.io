@@ -13,6 +13,6 @@
     "tests"
   ],
   "dependencies": {
-    "plusgallery": "https://github.com/jermartin77/plusgallery"
+    "webL10n": "*"
   }
 }

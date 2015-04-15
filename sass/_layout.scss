@@ -9,6 +9,29 @@ body {
 .navbar-korawin{
   border-color: transparent ;
   background: transparent;
+  .language-container{
+    position: absolute;
+    top: 0;
+    left: 40px;
+  }
+  /**
+ * hide menu items when collapsed
+ */
+  @media screen and (max-width: 767px) {
+    .collapse-hidden{
+      display: none;
+    }
+  }
+
+  /**
+  * hide menu items when NOT collapsed
+  */
+  @media screen and (min-width: 768px){
+    .navbar-collapse.collapse.uncollapse-hidden{
+      display: none!important;
+    }
+  }
+
 }
 
 #korawin {

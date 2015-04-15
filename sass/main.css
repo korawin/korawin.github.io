@@ -5643,7 +5643,23 @@ body {
 
 .navbar-korawin {
   border-color: transparent;
-  background: transparent; }
+  background: transparent;
+ /**
+* hide menu items when collapsed
+*/
+  /**
+  * hide menu items when NOT collapsed
+  */ }
+  .navbar-korawin .language-container {
+    position: absolute;
+    top: 0;
+    left: 40px; }
+  @media screen and (max-width: 767px) {
+    .navbar-korawin .collapse-hidden {
+      display: none; } }
+  @media screen and (min-width: 768px) {
+    .navbar-korawin .navbar-collapse.collapse.uncollapse-hidden {
+      display: none !important; } }
 
 #korawin {
   text-align: center;
